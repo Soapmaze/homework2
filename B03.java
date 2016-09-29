@@ -9,7 +9,8 @@ class B03{
 		this.seconds = this.days * 24 * 60 * 60;
 		this.m_count = seconds / 1000000;
 		System.out.printf("days to seconds : %d\n", seconds);
-		System.out.printf("seconds having million seconds time : %d\n", m_count);
+		if(m_count !=0)
+			System.out.printf("seconds having million seconds time : %d\n", m_count);
 	}
 
 	void input(){
