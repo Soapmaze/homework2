@@ -29,5 +29,6 @@ class B02{
 
 	public static void main(String[] args){
 		new B02().input();
+		return;
 	}
 }
